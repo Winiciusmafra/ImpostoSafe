@@ -1,6 +1,5 @@
 .cabecalho{
     grid-area: cabecalho;
-    
     background-image: url("../../images/background-titulo.png");
     background-repeat: no-repeat;
     background-position: center;

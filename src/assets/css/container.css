@@ -1,0 +1,11 @@
+.container{
+    width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 250 550 550 ;
+    grid-template-areas: 
+    "menu cabecalho cabecalho "
+    "menu conteudo conteudo "
+    "menu conteudo  conteudo";
+}
