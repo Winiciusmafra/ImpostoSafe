@@ -1,0 +1,17 @@
+.menu__item{
+    margin-bottom: 24px;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: #EAE7E7;
+    font-weight: bold;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    transition: 100ms all ease-in;
+}
+
+.menu__link:hover{
+
+    color: #6e6868;
+   
+}

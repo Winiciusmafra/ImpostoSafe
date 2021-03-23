@@ -1,3 +1,8 @@
 .menu{
     grid-area: menu;
+    background-color: #131431;
+    height: 80vh;
+    border-radius: 0 42px 42px 0;
+    text-align: center;
+    padding-top: 5%;
 }
