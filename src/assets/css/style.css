@@ -1,0 +1,13 @@
+body{
+    background-color: #3D3D4F;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: 
+    "menu cabecalho cabecalho "
+    "menu conteudo conteudo"
+    "menu conteudo conteudo";
+}
+
