@@ -3,7 +3,7 @@
     margin: 0 auto;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 166 266 356 ;
+    grid-template-rows: 120px;
     grid-template-areas: 
     "menu cabecalho cabecalho "
     "menu conteudo conteudo "
