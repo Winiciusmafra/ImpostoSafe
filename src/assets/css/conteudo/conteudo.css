@@ -1,3 +1,6 @@
 .conteudo{
     grid-area: conteudo;
+    background-color: #131431;
+    border-radius: 42px;
+    padding: 2%;
 }
