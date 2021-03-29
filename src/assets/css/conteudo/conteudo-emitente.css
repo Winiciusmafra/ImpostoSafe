@@ -1,7 +1,8 @@
 .conteudo__emitente{
+    text-align: center;
 }
 
-
-.conteudo__emitente--estado{
+.conteudo__emitente--dados{
+    display: flex;
 
 }

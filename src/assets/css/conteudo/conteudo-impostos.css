@@ -1,3 +1,23 @@
 .conteudo__impostos{
     padding: 4%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
 }
+
+.conteudo__impostos select{
+    background-color: #131432;
+    font-weight: 700;
+    font-family: 'M PLUS Rounded 1c', sans-serif !important;
+    color: #fdfdfd;
+    padding: 8px;
+    width: 200px;
+    margin-right: 12px;
+    border: none;
+    font-size: 14px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+

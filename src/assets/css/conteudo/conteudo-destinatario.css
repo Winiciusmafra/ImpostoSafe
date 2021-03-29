@@ -1,0 +1,8 @@
+.conteudo__destinatario{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.conteudo__destinatario--dados{
+    display: flex;
+}
