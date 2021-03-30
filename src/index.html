@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="assets/css/conteudo/conteudo-impostos.css">
     <link rel="stylesheet" href="assets/css/conteudo/conteudo-emitente.css">
     <link rel="stylesheet" href="assets/css/conteudo/conteudo-destinatario.css">
+    <link rel="stylesheet" href="assets/css/conteudo/conteudo-pedido.css">
     <link rel="stylesheet" href="assets/css/conteudo/conteudo-botao.css">
 
 
@@ -218,6 +219,33 @@
                         </div>
                     </div>
                     <!--Fim destinatario-->
+
+                    <div class="conteudo__pedido"><!--Pedido-->
+                        <h1>Dados do pedido</h1>
+                        <div class="conteudo__pedido--dados">
+                            <div class="conteudo__pedido--ncm">
+                                <p>NCM:</p>
+                                <input type="text" placeholder="Digite sem pontos">
+                                <button>&#10003;</button>
+                            </div>
+                            
+                            <div class="conteudo__pedido--cfop">
+                                <p>CFOP:</p>
+                                <input type="text" placeholder="Apenas números">
+                                <button>&#10003;</button>
+                            </div>
+
+                            <div class="conteudo__pedido--consumo">
+                                <p>Consumo final:</p>
+                                <input type="checkbox" name="consumo-sim" id="consumo-sim">
+                                <label for="consumo-sim">Sim</label>
+
+                                <input type="checkbox" name="consumo-nao" id="consumo-nao">
+                                <label for="consumo-sim">Não</label>
+                            </div>
+                        </div>
+                    </div><!--Fim pedido-->
+
                 </div>
 
                 <!-- #endregion -->

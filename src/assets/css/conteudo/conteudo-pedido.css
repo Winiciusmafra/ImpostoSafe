@@ -1,9 +1,10 @@
-.conteudo__destinatario{
+.conteudo__pedido{
     text-align: center;
     margin-top: 40px;
 }
 
-.conteudo__destinatario--dados{
+.conteudo__pedido--dados{
+    width: 100%;
     flex-direction: row;
     display: flex;
     justify-content: space-around;
